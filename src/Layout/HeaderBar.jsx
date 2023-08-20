@@ -19,10 +19,6 @@ function HeaderBar(){
             </div>
              <div className="w-full h-16 bg-white flex justify-center items-center">
                 <input type="search" name="" id="" className="border-green-500 border-solid border-1 h-14 rounded-full w-1/2 hover:drop-shadow-lg focus:outline-none"/>
-                {/* 검색창 onClick도 구현하고 싶었는데 아쉬움 */}
-                {/* 가상키보드 뜨는 기능, 검색창 왼 쪽에 로고있고, 로고 오른쪽 부터 input들어가는 기능 */}
-                {/* onClick으로 들어가면 검색창 Layout바뀌면서 최근검색어 뜨는 기능 */}
-                {/* 어떻게 하는거지... */}
             </div>
             <div className="w-full h-24 flex justify-center items-center gap-8">
                 {navbar.map((item)=>(
@@ -32,15 +28,7 @@ function HeaderBar(){
                         <figcaption>{item}</figcaption>
                     </div>
                 ))}
-                {/* <div>
-                    <img src="./../assets/react.svg" alt="" className="w-10 h-10" />
-                    <figcaption>메일</figcaption>
-                </div> */}
                 
-                {/*<p className="">상품 전체 보기</p>
-                <p>Q&A</p>
-                <p>도움말</p>
-                <p>내 정보</p>*/}
             </div> 
             
 
